@@ -35,10 +35,17 @@ namespace AccessModifiers
             //dbMigrator.Migrate();
 
             //installer.Install();
-            
-            //This code is for Car and Vehicle ( Constructors and Inheritance )
-            var car = new Car("ABC 123");
 
+            ////This code is for Car and Vehicle ( Constructors and Inheritance )
+            //var car = new Car("ABC 123");
+
+            // THis code is for Shape and Canvas ( Method Overriding )
+            var shapes = new List<Shape1>();
+            shapes.Add(new Circle());
+            shapes.Add(new Rectangle());
+
+            var canvas = new Canvass();
+            canvas.DrawShapes(shapes);
         }
 
     }

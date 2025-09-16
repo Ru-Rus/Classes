@@ -16,7 +16,12 @@ namespace AccessModifiers
         {
             Console.WriteLine("Adding Hyperlink: " + url);
         }
+    }
 
+    public class TextShape: Shape
+    {
+        public int FontSize { get; set; }
+        public string FontName { get; set; }
 
     }
 }
