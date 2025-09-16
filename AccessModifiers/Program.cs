@@ -16,6 +16,18 @@ namespace AccessModifiers
             var cookie = new HttpCookie();
             cookie["name"] = "Kaizer";
             Console.WriteLine(cookie["name"]);
+
+            //This Code is for Text and PresentationObject
+            var text = new Text();
+            text.Duplicate();
+            text.FontName = "Arial";
+            text.FontSize = 12;
+            text.Width = 100;
+            text.height = 150;
+            text.Copy();
+
+
+
         }
 
     }
